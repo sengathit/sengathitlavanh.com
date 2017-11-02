@@ -1,0 +1,90 @@
+body {
+	/*font-family: 'Saira Extra Condensed', sans-serif;
+	font-family: 'Abril Fatface', cursive; */
+	font-family: 'Poiret One', cursive;
+}
+
+.main-menu-btn {
+	z-index: 3;
+	top: -100%;
+}
+
+
+
+.main-menu-btn p {
+	cursor: pointer;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+#main-nav {
+	position: absolute;
+	background: #fff;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	padding-top: 15%;
+}
+
+.main-menu {
+	list-style-type: none;
+	padding: 0;
+}
+
+.main-menu a {
+	color: #666;
+	border-right: 2px solid #fff;
+	border-left: 2px solid #fff;
+	font-size: 2em; 
+	font-weight: thin;
+	text-decoration: none;
+	cursor: pointer;
+	-webkit-transition: border-right 0.3s, border-left 0.3s;
+	-moz-transition: border-right 0.3s, border-left 0.3s;
+	-o-transition: border-right 0.3s, border-left 0.3s;
+	transition: border-right 0.3s, border-left 0.3s;
+}
+
+.main-menu a:hover {
+	border-right: 2px solid #f00;
+	border-left: 2px solid #f00;
+}
+
+.all-rights {
+	font-size: 0.6em;
+}
+
+.img-container {
+	border-radius: 50%;
+	width: 150px;
+	padding: 3px;
+	border: 1px solid #ccc;
+	height: 150px;
+}
+
+.biography {
+	font-weight: bold;
+}
+
+.footer {
+	z-index: 3;
+	bottom: 0;
+}
+
+/********* MAIN CONTENT **********/
+#main-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: none;
+	opacity: 0;
+	font-weight: 600;
+}
+
+#main-content-dummy {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
